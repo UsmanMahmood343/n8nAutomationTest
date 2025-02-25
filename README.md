@@ -15,9 +15,23 @@ To get started with the project, you can clone this repository and follow the in
 - Node.js
 - n8n installed globally or in a Docker container.
 
-## Usage
-- Run your n8n instance and start creating workflows to automate your tasks.
-- Customize your automations to meet your specific needs.
+## Rust Calculator
+A simple calculator project is included in this repository to explore Rust programming.
+
+### Running the Calculator
+1. Ensure that you have Rust installed. You can download it from [rustup.rs](https://rustup.rs/).
+2. Navigate to the project directory:
+   ```bash
+   cd n8nAutomationTest
+   ```
+3. Run the application:
+   ```bash
+   cargo run
+   ```
+4. Run the unit tests:
+   ```bash
+   cargo test
+   ```
 
 ## Contributing
 Contributions are welcome! Please follow the standard GitHub procedures for opening issues and submitting pull requests.
